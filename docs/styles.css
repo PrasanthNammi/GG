@@ -63,58 +63,19 @@ a {
   width: 58px;
   height: 58px;
   border-radius: 16px;
-  background: linear-gradient(135deg, var(--violet), #6c4aa3);
-  position: relative;
-  box-shadow: 0 12px 24px rgba(79, 58, 120, 0.25);
-}
-
-.logo-book {
-  position: absolute;
-  inset: 12px 14px 16px 12px;
-  background: var(--lime);
-  border-radius: 8px;
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6);
-}
-
-.logo-book::before,
-.logo-book::after {
-  content: '';
-  position: absolute;
-  top: 6px;
-  bottom: 6px;
-  width: 10px;
   background: #ffffff;
-  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 12px 24px rgba(79, 58, 120, 0.15);
+  overflow: hidden;
 }
 
-.logo-book::before {
-  left: 6px;
-}
-
-.logo-book::after {
-  right: 6px;
-}
-
-.logo-rocket {
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  width: 18px;
-  height: 18px;
-  background: var(--teal);
-  clip-path: polygon(50% 0%, 100% 70%, 50% 100%, 0% 70%);
-  box-shadow: 0 6px 12px rgba(43, 154, 160, 0.4);
-}
-
-.logo-rocket::after {
-  content: '';
-  position: absolute;
-  left: 6px;
-  top: 5px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #fff;
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transform: translateY(-15px);
 }
 
 .brand-name {
