@@ -60,8 +60,8 @@ a {
 }
 
 .logo {
-  width: 58px;
-  height: 58px;
+  width: clamp(40px, 7vw, 58px);
+  height: clamp(40px, 7vw, 58px);
   border-radius: 16px;
   background: #ffffff;
   display: grid;
