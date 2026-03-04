@@ -374,6 +374,28 @@ a {
   align-items: start;
 }
 
+.contact-embed {
+  background: var(--paper);
+  border-radius: 22px;
+  padding: 16px;
+  border: 1px solid rgba(79, 58, 120, 0.12);
+  box-shadow: 0 18px 32px rgba(79, 58, 120, 0.12);
+  display: grid;
+  gap: 12px;
+}
+
+.contact-embed iframe {
+  width: 100%;
+  min-height: 720px;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.contact-embed .form-note {
+  margin-top: 0;
+}
+
 .contact-details {
   margin-top: 18px;
   background: rgba(255, 255, 255, 0.85);
