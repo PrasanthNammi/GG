@@ -536,6 +536,10 @@ a {
     align-items: flex-start;
   }
 
+  .nav {
+    position: static;
+  }
+
   .nav-actions {
     width: 100%;
     justify-content: flex-start;
